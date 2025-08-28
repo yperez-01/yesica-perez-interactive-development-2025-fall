@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <header>
-        <title>The Beach Bar</title>
-        <style>
-  body {
-    background-color: rgb(238, 236, 187);
-  }
-</style>
-    </header>
-    <body>
-        <br>
-        <b style="color:rgb(70, 11, 11)">Great choice! A pina colada is a refreshing cocktail that contains rum, cream of coconut, and pineapple juice!
-          <br>
-        <pre style="color:rgb(120, 31, 1)">
                           *             *                                   
           *                                                    *            
                         /\          ──                                      
@@ -36,11 +21,3 @@
                       )──────────────)                                      
                           ) ░ ░░ (                                          
                          )     ░░░(                                     *   
-        </pre>
-      <br>
-      It is getting late! You should head back to your hotel and rest. Tomorrow will be another great day at Palm Paradise Beach!
-      <br>
-      <a href="back-to-hotel.html"> Head back to hotel</a>
-      
-    </body>
-</html>
