@@ -1,10 +1,10 @@
 @font-face {
-    font-family:"Colmeak" "Inter";
-    src: url(../assets/Colmeak.otf);src: url(../assets/Inter_18pt-Regular.ttf)
+    font-family:"DynaPuff";
+    src: url(../assets/DynaPuff-SemiBold.ttf);
 }
 body{
     background-color:rgb(221, 255, 243);
-    font-family:"Colmeak";
+    font-family:"DynaPuff";
     font-size: medium;
   cursor: crosshair;
 }
