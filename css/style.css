@@ -1,11 +1,15 @@
 @font-face {
-    font-family:"Main";
-    src: url(../assets/Miskan.ttf);
+    font-family:"Colmeak" "Inter";
+    src: url(../assets/Colmeak.otf);src: url(../assets/Inter_18pt-Regular.ttf)
 }
 body{
-    background-color:rgb(255, 248, 221);
-    font-family:"Miskan";
-    font-size: x-large;
+    background-color:rgb(221, 255, 243);
+    font-family:"Colmeak";
+    font-size: medium;
   cursor: crosshair;
 
+}
+
+.H2{
+font-family:"Inter";
 }
