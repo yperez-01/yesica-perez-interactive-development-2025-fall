@@ -1,0 +1,11 @@
+@font-face {
+    font-family:"Main";
+    src: url(../assets/Miskan.ttf);
+}
+body{
+    background-color:rgb(255, 248, 221);
+    font-family:"Miskan";
+    font-size: x-large;
+  cursor: crosshair;
+
+}
