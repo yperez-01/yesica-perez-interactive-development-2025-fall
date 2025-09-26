@@ -1,19 +1,23 @@
 @font-face {
-    font-family:"DynaPuff" "Inter";
+    font-family:"Inter" "DynaPuff";
     src: url(../assets/DynaPuff-SemiBold.ttf); src: url(../assets/Inter.ttf)
 }
+
 body{
     background-color:#ddfff3;
     font-size: medium;
   cursor: crosshair;
 }
 
-.Intro {
+.Friends{
 font-family:"Inter";
-font-size: medium;
 }
 
-.Friends{
-font-size: medium;
-font-family:"Inter";
+.ul{
+font-family: "Inter";
+}
+
+.Intro{
+font-family:"DynaPuff";
+font-size: large;
 }
