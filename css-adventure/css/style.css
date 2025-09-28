@@ -46,6 +46,7 @@ height: 100%;
   gap:20px; 
   box-sizing: border-box;
   display:flex;
+  padding:9px;
 }
 
 a{
@@ -57,4 +58,18 @@ a:hover{
 
 a:active{
     color:rgb(0, 255, 229)
+}
+
+.button{
+  color:rgb(85, 40, 0);
+  background-color:rgb(255, 236, 127);
+  width: 375px;
+  height: 85px;
+  margin-left:auto;
+  margin-right:auto;
+  border: rgb(46, 27, 5) 10px inset;
+  gap:20px; 
+  box-sizing: border-box;
+  display:flex;
+  padding-left: 10px;
 }
