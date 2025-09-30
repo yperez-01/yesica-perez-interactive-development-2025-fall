@@ -73,3 +73,17 @@ a:active{
   display:flex;
   padding-left: 10px;
 }
+
+.source{
+  margin-left:auto;
+  margin-right:auto;
+  width: 1000px;
+  height:300px;
+  margin-left:auto;
+  margin-right:auto;
+  border: rgba(46, 27, 5, 0) 10px inset;
+  gap:20px; 
+  box-sizing: border-box;
+  display:flex;
+  padding:9px;
+}
