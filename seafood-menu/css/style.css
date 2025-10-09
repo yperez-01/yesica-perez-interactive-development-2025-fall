@@ -1,0 +1,24 @@
+ @font-face {
+    font-family: "Hegarty";
+    src: url(../assets/BBHSansHegarty-Regular.ttf);
+ }
+ 
+  @font-face {
+    font-family: "Inter";
+    src: url(../assets/Inter_28pt-Medium.ttf);
+ }
+
+  @font-face {
+    font-family: "Pirate";
+    src: url(../assets/Pirate\ Scroll.otf);
+ }
+ 
+
+.menu-box{
+    background-color: blue;
+}
+
+
+.header{
+    font-family: "Pirate" serif;
+}
