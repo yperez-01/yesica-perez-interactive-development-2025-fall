@@ -1,0 +1,50 @@
+@font-face{
+    font-family:"SquadaOne";
+    src: url(../assets/SquadaOne-Regular.ttf);
+}
+
+body{
+    display: block;
+}
+
+
+.box-image{
+    border-color: rgba(77, 197, 193, 0);
+    width: calc(3090px/2);
+    height:calc(3640px/2);
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+
+/*.image-menu{
+    width: calc(1545px/2);
+    height:calc(1820px/2);
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}*/
+
+.back-bt{
+    width: 772px;
+    height:40px;
+    font-family: "SquadaOne", sans-serif;
+    font-size: x-large;
+    border: rgb(0, 0, 0) solid 1px;
+    background-color: rgb(255, 250, 245);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.a{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color:rgb(0, 0, 0)
+}
+
+a:active{
+    color: rgb(77, 197, 193);
+}
