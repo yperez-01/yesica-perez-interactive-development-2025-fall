@@ -15,10 +15,35 @@
  
 
 .menu-box{
-    background-color: blue;
+    background-color: rgb(187, 255, 215);
+    font-family: "Inter";
+    width: calc(1545px/2);
+    height:calc(1820px/2);
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
 }
 
 
 .header{
-    font-family: "Pirate" serif;
+  height:80px;
+  width:772px;
+  font-family: "Pirate";
+  font-size: 70px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:1px;
+  display: inline-block;
+  
+
+}
+
+.section-1{
+  display:inline-block;
+  width: 386px;
+  height:calc(1600px/2);
+  background-color: rgba(240, 248, 255, 0);
+
+
 }
