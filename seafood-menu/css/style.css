@@ -20,6 +20,7 @@
     width: calc(1552px/2);
     height:calc(1820px/2);
     margin-left:auto;
+    margin-top: 80px;
     margin-right:auto;
     position:relative;
 }
