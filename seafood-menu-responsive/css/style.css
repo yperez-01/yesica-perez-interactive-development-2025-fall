@@ -13,6 +13,7 @@
     src: url(../assets/Organic\ Brand.ttf);
  }
  
+
 .menu-box{
     background-color: rgb(214, 79, 0);
     font-family: "Inter";
@@ -22,9 +23,6 @@
     margin-top: 80px;
     margin-right:auto;
     position:relative;
-    display:flex;
-    resize: both;
-  overflow: auto;
 }
 
 
@@ -38,29 +36,28 @@
   margin-left: auto;
   margin-right: auto;
   padding-top:1px;
+  display: inline-block;
   padding-bottom: 5px;
   padding-top: 80px;
-  display:inline-flex;
-  text-wrap:auto;
 }
 
 .section-1{
-  display:inline-flex;
+  display:inline-block;
   width: 386px;
   height:auto;
   background-color: rgba(240, 248, 255, 0);
   text-align: left;
-  text-wrap:auto;
+
+
 }
 
 .section-2{
-  display:inline-flex;
+  display:inline-block;
   width: 386px;
   height:auto;
   background-color: rgba(240, 248, 255, 0);
   text-align: left;
   vertical-align: top;
-  text-wrap:auto;
 }
 
 
@@ -72,8 +69,6 @@
   height:auto;
   padding-left: 5px;
   color:rgb(214, 79, 0);
-  display:inline-flex;
-  text-wrap:auto;
 }
 
 .label-2{
@@ -84,8 +79,6 @@
   height:auto;
   padding-left: 5px;
   color:rgb(214, 79, 0);
-  display:inline-flex;
-  text-wrap:auto;
 }
 
 .food-items{
@@ -94,11 +87,10 @@
   color:whitesmoke;
   width:335px;
   height: auto;
-  display:inline-flex;
+  display: inline-block;
   line-height:25px;
   padding-top: 5px;
   padding-left: 5px;
-  text-wrap:auto;
 }
 
 .prices-1{
@@ -107,11 +99,10 @@
   color:whitesmoke;
   width:31.5px;
   height: auto;
-  display:inline-flex;
+  display: inline-block;
   line-height:25px;
   padding-top: 5px;
   text-align: right;
-  text-wrap:auto;
 }
 
 .food-items2{
@@ -120,11 +111,10 @@
   color:whitesmoke;
   width:335px;
   height: auto;
-  display:inline-flex;
+  display: inline-block;
   line-height:25px;
   padding-top: 5px;
   padding-left: 5px;
-  text-wrap:auto;
 }
 
 .image-box{
@@ -133,5 +123,34 @@
   box-sizing: border-box;
   display:inline-flex;
   vertical-align: top;
-  display:inline-flex;
 }
+
+
+
+@media screen and (max-width:1080px) and (min-width:960px){
+  div.box{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 960px and narrower than 1080px.*/
+} 
+@media screen and (max-width:960px) and (min-width:720px){
+  div.box{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 720px and narrower than 960px.*/
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  div.box{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+} 
