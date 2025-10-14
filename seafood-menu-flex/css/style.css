@@ -13,9 +13,6 @@
     src: url(../assets/Organic\ Brand.ttf);
  }
  
-.body{
-  display:flex;
-}
 .menu-box{
     background-color: rgb(214, 79, 0);
     font-family: "Inter";
@@ -25,7 +22,9 @@
     margin-top: 80px;
     margin-right:auto;
     position:relative;
-    display:inline-flex;
+    display:flex;
+    resize: both;
+  overflow: auto;
 }
 
 
@@ -39,10 +38,9 @@
   margin-left: auto;
   margin-right: auto;
   padding-top:1px;
-  display:inline-flex;
   padding-bottom: 5px;
   padding-top: 80px;
-  display:flex;
+  display:inline-flex;
   text-wrap:auto;
 }
 
@@ -74,7 +72,7 @@
   height:auto;
   padding-left: 5px;
   color:rgb(214, 79, 0);
-  display:flex;
+  display:inline-flex;
   text-wrap:auto;
 }
 
@@ -86,7 +84,7 @@
   height:auto;
   padding-left: 5px;
   color:rgb(214, 79, 0);
-  display:flex;
+  display:inline-flex;
   text-wrap:auto;
 }
 
