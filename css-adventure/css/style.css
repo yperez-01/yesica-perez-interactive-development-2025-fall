@@ -91,10 +91,7 @@ a:active{
   height:300px;
   margin-left:auto;
   margin-right:auto;
-  gap:20px; 
-  box-sizing: border-box;
   display:flex;
-  padding:10px;
   padding-top: 15px;
   text-align: justify;
 }
