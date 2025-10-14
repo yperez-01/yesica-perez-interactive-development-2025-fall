@@ -94,4 +94,5 @@ a:active{
   display:flex;
   padding-top: 15px;
   text-align: justify;
+  position: fixed;
 }
