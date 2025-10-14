@@ -117,8 +117,10 @@
   padding-left: 5px;
 }
 
-.section-3{
-  width: calc(1552px/2);
-  height:1200px;
-
+.image-box{
+  width: 300px;
+  height:300px;
+  box-sizing: border-box;
+  display:inline-flex;
+  vertical-align: top;
 }
