@@ -3,10 +3,6 @@
     src: url(../assets/SquadaOne-Regular.ttf);
 }
 
-body{
-    display: block;
-}
-
 
 .box-image{
     border-color: rgba(77, 197, 193, 0);
@@ -34,7 +30,7 @@ body{
     color: rgb(0, 0, 0);
 }
 a:hover{
-    color:rgb(0, 0, 0)
+    color:rgb(77, 197, 193)
 }
 
 a:active{
