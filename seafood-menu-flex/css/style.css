@@ -43,6 +43,7 @@
   padding-bottom: 5px;
   padding-top: 80px;
   display:flex;
+  text-wrap:auto;
 }
 
 .section-1{
@@ -51,6 +52,7 @@
   height:auto;
   background-color: rgba(240, 248, 255, 0);
   text-align: left;
+  text-wrap:auto;
 }
 
 .section-2{
@@ -60,6 +62,7 @@
   background-color: rgba(240, 248, 255, 0);
   text-align: left;
   vertical-align: top;
+  text-wrap:auto;
 }
 
 
@@ -72,6 +75,7 @@
   padding-left: 5px;
   color:rgb(214, 79, 0);
   display:flex;
+  text-wrap:auto;
 }
 
 .label-2{
@@ -83,6 +87,7 @@
   padding-left: 5px;
   color:rgb(214, 79, 0);
   display:flex;
+  text-wrap:auto;
 }
 
 .food-items{
@@ -95,6 +100,7 @@
   line-height:25px;
   padding-top: 5px;
   padding-left: 5px;
+  text-wrap:auto;
 }
 
 .prices-1{
@@ -107,6 +113,7 @@
   line-height:25px;
   padding-top: 5px;
   text-align: right;
+  text-wrap:auto;
 }
 
 .food-items2{
@@ -119,6 +126,7 @@
   line-height:25px;
   padding-top: 5px;
   padding-left: 5px;
+  text-wrap:auto;
 }
 
 .image-box{
