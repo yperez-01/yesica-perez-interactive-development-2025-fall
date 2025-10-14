@@ -76,15 +76,14 @@ a:active{
 }
 
 .source{
+  color:rgb(85, 40, 0);
   background-color:rgba(255, 236, 127, 0);
-  width: 1000px;
-  height:auto;
-  margin-left:auto;
-  margin-right:auto;
+  width: 375px;
+  height: 85px;
+  box-sizing: border-box;
   display:flex;
-  padding-top: 15px;
-  text-align: justify;
-  position: fixed;
+  text-align:left;
+  position:fixed;
 }
 
 .button-box{
