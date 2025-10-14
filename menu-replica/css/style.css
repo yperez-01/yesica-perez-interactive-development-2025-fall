@@ -177,8 +177,8 @@ body{
 
 
 .button{
-    width: 772px;
-    height:40px;
+    width: auto;
+    height:auto;
     font-family: "SquadaOne", sans-serif;
     font-size: medium;
     border: rgb(0, 0, 0) solid 2px;
