@@ -11,7 +11,7 @@ body{
   color:rgb(114, 15, 73);
 }
 
-.intro{
+.box-text{
   font-size: 50px;
     vertical-align:middle;
     margin-left: auto;
@@ -37,3 +37,21 @@ a:hover{
 a:active{
     color:rgb(106, 198, 255)
 }
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .box-text{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .list{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+} 

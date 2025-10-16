@@ -128,7 +128,7 @@
 
 
 @media screen and (max-width:1080px) and (min-width:960px){
-  div.box{
+  .header{
     background-color:rgba(255, 0, 0, 0);
     width:calc(50% - 2.6rem);
     background-color:rgba(0, 0, 0, 0);
@@ -137,7 +137,7 @@
 /*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 960px and narrower than 1080px.*/
 } 
 @media screen and (max-width:960px) and (min-width:720px){
-  div.box{
+  .section-1{
     background-color:rgba(255, 0, 0, 0);
     width:calc(50% - 2.6rem);
     background-color:rgba(0, 0, 0, 0);
@@ -147,7 +147,70 @@
 } 
 
 @media screen and (max-width:720px) and (min-width:480px){
-  div.box{
+  .label-1{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .food-items{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+}
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .food-items2{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .prices-1{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .section-2{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .label-2{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .image-box{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+} 
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .menu-box{
     background-color:rgba(255, 0, 0, 0);
     width:calc(100% - 2.6rem);
     height:26rem;
