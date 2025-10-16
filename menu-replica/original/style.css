@@ -13,11 +13,11 @@
     position:relative;
 }
 
-.back-bt{
-    width: 772px;
-    height:40px;
+.back{
+    width: 300px;
+    height:25px;
     font-family: "SquadaOne", sans-serif;
-    font-size: x-large;
+    font-size: medium;
     border: rgb(0, 0, 0) solid 2px;
     background-color: rgb(255, 250, 245);
     margin-left: auto;
