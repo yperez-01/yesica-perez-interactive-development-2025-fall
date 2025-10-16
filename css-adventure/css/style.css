@@ -81,9 +81,8 @@ a:active{
   width: 375px;
   height: 85px;
   box-sizing: border-box;
-  display:flex;
+ 
   text-align:left;
-  position:fixed;
 }
 
 .button-box{
@@ -95,5 +94,50 @@ a:active{
   display:flex;
   padding-top: 15px;
   text-align: justify;
-  position: fixed;
+  
+}
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .box1{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+}
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .textbox{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+}
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .button{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+}
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .source{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+}
+
+@media screen and (max-width:720px) and (min-width:480px){
+  .button-box{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
 }
