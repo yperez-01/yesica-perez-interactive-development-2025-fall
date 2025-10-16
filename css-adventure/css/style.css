@@ -67,7 +67,7 @@ a:active{
   background-color:rgb(255, 236, 127);
   width: 355px;
   height: 90px;
-  border: rgb(46, 27, 5) 10px inset;
+  border: rgb(46, 27, 5) 5px inset;
   box-sizing: border-box;
   display:flex;
   padding-left: 12px;
@@ -76,13 +76,14 @@ a:active{
 }
 
 .source{
-  color:rgb(85, 40, 0);
   background-color:rgba(255, 236, 127, 0);
-  width: 375px;
-  height: 85px;
-  box-sizing: border-box;
- 
-  text-align:left;
+  width: 1000px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  padding-top: 15px;
+  text-align: justify;
 }
 
 .button-box{
@@ -94,16 +95,15 @@ a:active{
   display:flex;
   padding-top: 15px;
   text-align: justify;
-  
+  gap:10px;
 }
 
-@media screen and (max-width:720px) and (min-width:480px){
+/*@media screen and (max-width:720px) and (min-width:480px){
   .box1{
     background-color:rgba(255, 0, 0, 0);
     width:calc(100% - 2.6rem);
     height:26rem;
   }
-/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
 }
 
 @media screen and (max-width:720px) and (min-width:480px){
@@ -112,7 +112,7 @@ a:active{
     width:calc(100% - 2.6rem);
     height:26rem;
   }
-/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
+
 }
 
 @media screen and (max-width:720px) and (min-width:480px){
@@ -121,7 +121,6 @@ a:active{
     width:calc(100% - 2.6rem);
     height:26rem;
   }
-/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
 }
 
 @media screen and (max-width:720px) and (min-width:480px){
@@ -130,7 +129,6 @@ a:active{
     width:calc(100% - 2.6rem);
     height:26rem;
   }
-/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
 }
 
 @media screen and (max-width:720px) and (min-width:480px){
@@ -139,5 +137,4 @@ a:active{
     width:calc(100% - 2.6rem);
     height:26rem;
   }
-/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
 }
