@@ -3,28 +3,50 @@
     src: url(../assets/SourGummy-Medium.ttf);
 }
 
+
 body{
-  background-color:rgb(99, 246, 0);
+  background-color:rgba(98, 246, 0, 0);
   font-size:25px;
   cursor: crosshair;
   font-family: "Sour";
-  color:rgb(114, 15, 73);
+}
+
+.section{
+ background-color:rgba(245, 241, 223, 0.891);
+ width: 475px;
+ height:1200px;
 }
 
 .box-text{
+  padding-left: 25px;
+  padding-top: 5px;
   font-size: 50px;
-    vertical-align:middle;
-    margin-left: auto;
-    margin-right: auto;
-
+  text-align: left;
+    color:rgb(206, 31, 66);
 }
+
 .list{
+  padding-left: 25px;
   display: inline-block;
    width:calc(25% - 2.6rem);
-    vertical-align:middle;
     height:300px;
     margin-right:calc(2.6rem * 1.3);
     margin-bottom:calc(2.6rem * 1.3);
+}
+
+
+.friends{
+  padding-left: 25px;
+  color:rgb(206, 31, 66);
+  width: auto;
+  height: auto;
+}
+
+.Projects{
+  padding-left: 25px;
+   width: auto;
+   height: auto;
+   color:rgb(206, 31, 66);
 }
 
 a{
@@ -37,6 +59,12 @@ a:hover{
 a:active{
     color:rgb(106, 198, 255)
 }
+
+ ul {
+      list-style-type: none;
+      margin:0;
+      padding:0;
+    }
 
 @media screen and (max-width:720px) and (min-width:480px){
   .box-text{
@@ -54,4 +82,5 @@ a:active{
     height:26rem;
   }
 /*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 480px and narrower than 720px.*/
-} 
+}
+
