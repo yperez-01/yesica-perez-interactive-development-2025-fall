@@ -207,3 +207,21 @@ a:active{
     text-align:left;
     display: inline-block;
 }
+
+.float{
+font-family:"SquadaOne", sans-serif;
+width:750px;
+height:auto;
+font-size: large;
+color:white;
+position: absolute; /* Removes it from normal document flow */
+top: 435px; /* Adjust as needed */
+left: 5px; /* Adjust as needed */
+background-color: rgba(22, 23, 22, 0.678);
+border: 5px solid rgba(22, 23, 22, 0);
+border-radius: 5px; /* Applies a 15px radius to all corners */
+z-index: 10; /* Higher z-index ensures it appears above others */
+word-spacing: 6px;
+letter-spacing: 6px;
+transform: rotateZ(-90deg);
+}
