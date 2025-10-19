@@ -119,7 +119,8 @@ body{
 .opt-2 {
     align:middle;
     text-align: middle;
-      display:inline-block;
+    display:inline-block;
+    text-align: center;
 }
 
 .opt-3 {
