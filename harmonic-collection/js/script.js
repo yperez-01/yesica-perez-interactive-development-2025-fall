@@ -15,11 +15,3 @@
             stagger: 0.2, // Stagger animation by 0.1 seconds
             duration: 0.8
         });*/
-
-
-$("span").on("mouseenter", function(){
-    $(this).css({"color":"red"})
-});
-$("span").on("mouseleave", function(){
-    $(this).css({"background-color": "lightblue"});
-  });
