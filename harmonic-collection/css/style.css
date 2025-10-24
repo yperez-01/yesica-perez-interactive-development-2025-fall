@@ -69,18 +69,29 @@ body {
     padding-top: 15%;    
 }
 
-.span:hover{
-    display:inline-block;
-    animation: rotatez(90deg) 1s infinite;
+span{
+    font-size:100px;
+    transition:font-size 0.3s ease-in-out;
 }
 
-@keyframes span {
-    from {background-color: rgb(0, 0, 0);}
-  to {background-color: rgb(255, 0, 0);}
+span:hover {
+    font-size:200px;}
+    /*animation:ease-in-out 3s infinite alternate;
+    animation-name: "myanimation";
+      display:inline-block;
 }
 
-
-
+/*@keyframes span {
+  0% {
+    font-size: 100px;
+  }
+  50% {
+    font-size: 200px;
+  }
+  100% {
+    font-size: 100px;
+  }
+}*/
 
 
 
