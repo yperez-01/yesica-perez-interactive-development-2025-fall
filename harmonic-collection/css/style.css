@@ -75,7 +75,9 @@ span{
 }
 
 span:hover {
-    font-size:200px;}
+    font-size:200px;
+    color:red;
+    }
     /*animation:ease-in-out 3s infinite alternate;
     animation-name: "myanimation";
       display:inline-block;
