@@ -1,0 +1,70 @@
+@charset "utf-8";
+@font-face {
+    font-family: "DM Serif" , serif;
+    src: url(../assets/DMSerifText-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway", sans-serif;
+    src: url(../assets/Raleway-Medium.ttf);
+}
+
+body {
+    background-color: #0028ca;
+}
+
+
+.header{
+    vertical-align: top;
+    width: 100%;
+    height:100%;
+    gap:15px;
+    display:flex;
+    padding-top: 5%;
+   
+}
+
+.movie{
+    align:left;
+    text-align: left;
+    display:inline-block;
+    width: 50%;
+    height:100%;
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+    padding-left: 5%;
+}
+
+.studio{
+    align:middle;
+    text-align: left;
+    display:inline-block;
+    width: 25%;
+    height:100%;
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+}
+
+.synopsis{
+    align:right;
+    text-align: left;
+    display:inline-block;
+    width: 25%;
+    height:100%;
+    text-wrap: auto;
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+    padding-right: 5%;
+}
+
+.content{
+    font-family: "DM Serif" , serif;
+    font-size: 100px;
+    vertical-align: bottom;
+    width: 75%;
+    height:100%;
+    text-align: left;
+    text-wrap: auto;
+    padding-left: 5%;
+    padding-top: 15%;    
+}
