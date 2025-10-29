@@ -9,8 +9,14 @@
     src: url(../assets/Raleway-Medium.ttf);
 }
 
+@font-face {
+    font-family: "edosz", sans-serif;
+    src: url(../assets/edosz.ttf);
+}
+
+
 body {
-    background-color: #428d01;
+    background-color: #98d860;
 }
 
 
@@ -21,7 +27,6 @@ body {
     gap:15px;
     display:flex;
     padding-top: 5%;
-   
 }
 
 .movie{
@@ -33,6 +38,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: medium;
     padding-left: 5%;
+    color:#1e4001;
 }
 
 .studio{
@@ -43,6 +49,7 @@ body {
     height:100%;
     font-family: "Raleway", sans-serif;
     font-size: medium;
+    color:#1e4001;
 }
 
 .synopsis{
@@ -55,10 +62,10 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: medium;
     padding-right: 5%;
+    color:#1e4001;
 }
 
 .content{
-    font-family: "DM Serif" , serif;
     font-size: 100px;
     vertical-align: bottom;
     width: 75%;
@@ -71,30 +78,25 @@ body {
 
 span{
     font-size:100px;
-    transition:font-size 0.3s ease-in-out;
+    color:#1e4001;
+    font-family: "DM Serif", serif;
 }
 
 span:hover {
-    font-size:200px;
-    color:red;
+    font-size:300px;
+    color:#f00000;
+    font-family: "edosz", sans-serif;
     }
-    /*animation:ease-in-out 3s infinite alternate;
-    animation-name: "myanimation";
-      display:inline-block;
+
+span.filler{
+color: #1e4001;
+font-size: 100px;
+font-family: "DM Serif", serif;
+
 }
-
-/*@keyframes span {
-  0% {
-    font-size: 100px;
-  }
-  50% {
-    font-size: 200px;
-  }
-  100% {
-    font-size: 100px;
-  }
-}*/
-
+span.filler:hover{
+  color:azure;
+}
 
 
 
