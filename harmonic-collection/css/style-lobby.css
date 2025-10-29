@@ -61,16 +61,14 @@ body {
 }
 
 
-.duplicate{
+.float {
     position:absolute;
-    opacity: 10;
-    color:white;
-    top: 435px; /* Adjust as needed */
-    left: -20px; /* Adjust as needed */
-    z-index: 11; /* Higher z-index ensures it appears above others */
+    opacity: 02;
+    top: 435px;
+    left: 20px;
+    z-index: 1;
     font-family: "DM Serif" , serif;
     font-size: 55px;
-    vertical-align: bottom;
     width: 75%;
     height:100%;
     text-align: left;
