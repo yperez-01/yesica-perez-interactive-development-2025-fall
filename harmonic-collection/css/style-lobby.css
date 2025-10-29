@@ -60,6 +60,40 @@ body {
     padding-top: 15%;    
 }
 
+
+.duplicate{
+    position:absolute;
+    opacity: 10;
+    color:white;
+    top: 435px; /* Adjust as needed */
+    left: -20px; /* Adjust as needed */
+    z-index: 11; /* Higher z-index ensures it appears above others */
+    font-family: "DM Serif" , serif;
+    font-size: 55px;
+    vertical-align: bottom;
+    width: 75%;
+    height:100%;
+    text-align: left;
+    text-wrap: auto;
+    padding-left: 5%;
+    padding-top: 15%;
+}
+
+
+span{
+    animation: 1s linear infinite;
+    animation-name: "blinker";
+}
+
+@keyframes blinker{
+
+    50%{
+        opacity: 0;
+    }
+    
+}
+
+
 @media screen and (max-width:960px) and (min-width:720px){
   .header{
     background-color:rgba(255, 0, 0, 0);
@@ -94,18 +128,4 @@ body {
     background-color:rgba(0, 0, 0, 0);
     height:26rem;
   }
-}
-
-
-span{
-    animation: 1s linear infinite;
-    animation-name: "blinker";
-}
-
-@keyframes blinker{
-
-    50%{
-        opacity: 0;
-    }
-    
 }
