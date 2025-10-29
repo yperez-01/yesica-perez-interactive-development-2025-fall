@@ -10,8 +10,7 @@
 }
 
 body {
-    background-color: #0028ca;
-    color:rgb(233, 245, 255);
+    background-color: #018d86;
 }
 
 
@@ -68,40 +67,4 @@ body {
     text-wrap: auto;
     padding-left: 5%;
     padding-top: 15%;    
-}
-
-@media screen and (max-width:960px) and (min-width:720px){
-  .header{
-    background-color:rgba(255, 0, 0, 0);
-    width:calc(50% - 2.6rem);
-    background-color:rgba(0, 0, 0, 0);
-    height:26rem;
-  }
-}
-
-@media screen and (max-width:960px) and (min-width:720px){
-  .movie{
-    background-color:rgba(255, 0, 0, 0);
-    width:calc(50% - 2.6rem);
-    background-color:rgba(0, 0, 0, 0);
-    height:26rem;
-  }
-}
-
-@media screen and (max-width:960px) and (min-width:720px){
-  .synopsis{
-    background-color:rgba(255, 0, 0, 0);
-    width:calc(50% - 2.6rem);
-    background-color:rgba(0, 0, 0, 0);
-    height:26rem;
-  }
-}
-
-@media screen and (max-width:960px) and (min-width:720px){
-  .content{
-    background-color:rgba(255, 0, 0, 0);
-    width:calc(50% - 2.6rem);
-    background-color:rgba(0, 0, 0, 0);
-    height:26rem;
-  }
 }
