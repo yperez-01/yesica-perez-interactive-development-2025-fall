@@ -76,11 +76,11 @@ body {
     padding-top: 15%;
 }
 
-#animated-text{
+.animated-text{
   animation-name:"fade";
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  display: block; 
+  display: inline-block;
 }
 
 @keyframes fade {
@@ -98,7 +98,6 @@ span{
     font-size:100px;
     color:#1e4001;
     font-family: "DM Serif", serif;
-    display: block;
 }
 
 /* span:hover {
