@@ -61,7 +61,7 @@ body {
 }
 
 
-.float {
+#float-text{
     position:absolute;
     opacity: 02;
     top: 435px;
@@ -73,8 +73,6 @@ body {
     height:100%;
     text-align: left;
     text-wrap: auto;
-    padding-left: 5%;
-    padding-top: 15%;
 }
 
 
