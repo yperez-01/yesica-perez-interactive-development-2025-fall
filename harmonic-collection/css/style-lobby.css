@@ -15,6 +15,12 @@ body {
 }
 
 
+.page{
+  width: 100%;
+  height:100%
+}
+
+
 .header{
     vertical-align: top;
     width: 100%;
@@ -31,7 +37,7 @@ body {
     width: 50%;
     height:100%;
     font-family: "Raleway", sans-serif;
-    font-size: medium;
+    font-size: x-large;
     padding-left: 5%;
 }
 
@@ -52,25 +58,26 @@ body {
     font-family: "DM Serif" , serif;
     font-size: 55px;
     vertical-align: bottom;
-    width: 75%;
+    width: 80%;
     height:100%;
     text-align: left;
     text-wrap: auto;
     padding-left: 5%;
     padding-top: 15%;
     /* position:relative; */
+    z-index: 2;
 }
 
 
 .float-box{
     opacity: 10%;
-    top: 205px;
-    left: 51px;
+    top: 185px;
+    left: 8px;
     z-index: 1;
     font-family: "DM Serif" , serif;
     font-size: 55px;
     vertical-align: bottom;
-    width: 75%;
+    width: 80%;
     height:100%;
     text-align: left;
     text-wrap: auto;
@@ -94,12 +101,12 @@ span{
 }
 
 
-.a{
-  color:#063f25
+a{
+  color:#51ff003f
 }
 
-.a:hover{
-  color:#00ff8c
+a:hover{
+  color:#ffffff
 }
 
 
