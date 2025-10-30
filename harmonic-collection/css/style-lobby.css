@@ -57,13 +57,14 @@ body {
     text-align: left;
     text-wrap: auto;
     padding-left: 5%;
-    padding-top: 15%;    
+    padding-top: 15%;
+    position: relative;    
 }
 
 
-#float-text{
+.float-box{
     position:absolute;
-    opacity: 02;
+    opacity: 10%;
     top: 435px;
     left: 20px;
     z-index: 1;
