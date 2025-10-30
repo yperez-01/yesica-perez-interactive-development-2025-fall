@@ -76,17 +76,14 @@ body {
     padding-top: 15%;
 }
 
-
-span{
-    font-size:100px;
-    color:#1e4001;
-    font-family: "DM Serif", serif;
-    animation-name:"Fade";
-    animation-duration: 5s;
-    animation-iteration-count: infinite; 
+#animated-text{
+  animation-name:"fade";
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  display: block; 
 }
 
-@keyframes Fade {
+@keyframes fade {
   0% {
     opacity: 0;
     transform: translateY(-20px);
@@ -97,21 +94,31 @@ span{
   }
 }
 
-span:hover {
+span{
+    font-size:100px;
+    color:#1e4001;
+    font-family: "DM Serif", serif;
+    display: block;
+}
+
+/* span:hover {
     font-size:300px;
     color:#f00000;
     font-family: "edosz", sans-serif;
+    display: block;
     }
 
 span.filler{
 color: #1e4001;
 font-size: 100px;
 font-family: "DM Serif", serif;
+display: block;
 
 }
 span.filler:hover{
   color:azure;
-}
+  display: block;
+} */
 
 
 
