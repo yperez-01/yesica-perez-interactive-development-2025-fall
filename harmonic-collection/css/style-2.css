@@ -75,9 +75,21 @@ body {
     animation: slide-in 2s forwards;
 }
 
+
+.effect{
+  color:#1c0034;
+  text-shadow: 0 0 10px #fff4c7,
+               0 0 20px #fac907,
+               0 0 30px #fff4c7;
+}
+
+.effect:hover{
+  color:#f3c300;
+}
+
 @keyframes slide-in {
   from {
-    transform: translateX(-100%);
+    transform: translateX(200%);
     opacity: 0;
   }
   to {
