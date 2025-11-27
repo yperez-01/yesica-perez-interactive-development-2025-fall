@@ -1,27 +1,39 @@
-@charset "utf-8";
+@charset "UTF-8";
 @font-face {
-    font-family: "DM Serif" , serif;
+    font-family: "dmserif" , serif;
     src: url(../assets/DMSerifText-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Raleway", sans-serif;
+    font-family: "raleway", sans-serif;
     src: url(../assets/Raleway-Medium.ttf);
 }
 
-body {
-    background-color: #bf72ff;
+@font-face {
+    font-family: "ralewaythinitalic", sans-serif;
+    src: url(../assets/Raleway-ThinItalic.ttf);
 }
 
+@font-face {
+    font-family: "ralewaybolditalic", sans-serif;
+    src: url(../assets/Raleway-BoldItalic.ttf);
+}
 
-.header{
+body {
+    background-color: #cb8efd;
+}
+
+a{
+  text-decoration:none !important;
+}
+
+#header{
     vertical-align: top;
     width: 100%;
     height:100%;
     gap:15px;
     display:flex;
     padding-top: 5%;
-   
 }
 
 .movie{
@@ -31,7 +43,7 @@ body {
     display:inline-block;
     width: 50%;
     height:100%;
-    font-family: "Raleway", sans-serif;
+    font-family: "raleway", sans-serif;
     font-size: medium;
     padding-left: 5%;
 }
@@ -43,7 +55,7 @@ body {
     display:inline-block;
     width: 25%;
     height:100%;
-    font-family: "Raleway", sans-serif;
+    font-family: "raleway", sans-serif;
     font-size: medium;
 }
 
@@ -55,13 +67,13 @@ body {
     width: 25%;
     height:100%;
     text-wrap: auto;
-    font-family: "Raleway", sans-serif;
+    font-family: "raleway", sans-serif;
     font-size: medium;
     padding-right: 5%;
 }
 
 .content{
-    font-family: "DM Serif" , serif;
+    font-family: "dmserif" , serif;
     color:#1c0034;
     font-size: 100px;
     vertical-align: bottom;
@@ -72,19 +84,48 @@ body {
     padding-left: 5%;
     padding-top: 15%;
     display: inline-block;
-    animation: slide-in 2s forwards;
+    animation: slide-in 4s forwards;
 }
-
 
 .effect{
   color:#1c0034;
+}
+
+.effect-show{
+  color:#f3c300;
+  cursor: pointer;
   text-shadow: 0 0 10px #fff4c7,
                0 0 20px #fac907,
                0 0 30px #fff4c7;
 }
 
-.effect:hover{
-  color:#f3c300;
+.reverse{
+  color:#1c0034;
+}
+
+.reverse:hover{
+  color:#efddff;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  cursor:pointer;
+  font-size: 120px;
+}
+
+.mine{
+  color:#1c0034;
+}
+
+.mine:hover{
+  font-family: "ralewaythin" , sans-serif;
+  color:#fff4c7;
+  text-transform:lowercase;
+  font-size: 50px;
+  cursor:pointer;
+}
+
+.mine:hover:before{
+  content: "mine, mine, mine, mine, mine, mine, mine, mine, mine......";
+  font-family: "ralewaythinitalic" , sans-serif;
 }
 
 @keyframes slide-in {
@@ -92,9 +133,10 @@ body {
     transform: translateX(200%);
     opacity: 0;
   }
+
   100% {
     transform: translateX(0);
-    opacity: 1;
+    opacity: 100%;
   }
 }
 

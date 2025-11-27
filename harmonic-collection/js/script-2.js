@@ -1,13 +1,10 @@
-document.addEventListener('DOMContentLoaded') , () => {
-  const animatedText = document.querySelector('.content');
-}
+// $("#btn").click(function(){
+//   setTimeout(function(){$("body").css({"background-color":"red"}, 10000);
+// }, 10000)})
 
-// Get the span and audio elements by their IDs
-const clickMe = document.getElementById(".effect");
-const soundEffect = document.getElementById("sound-effect");
-
-// Add a click event listener to the span
-clickMe.addEventListener("hover", () => {
-  // Play the sound when the span is clicked
-  soundEffect.play();
-});
+$(".effect").on("click", function(){
+    if($(".effect").hasClass("effect-show")){
+        $(".effect").removeClass("effect-show");}else{
+            $(".effect").addClass("effect-show");
+    }
+})
