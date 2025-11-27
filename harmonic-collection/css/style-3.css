@@ -9,9 +9,19 @@
     src: url(../assets/Raleway-Medium.ttf);
 }
 
+html{
+    font-size:7px;
+    line-height:1.3;
+}
+
 body {
-    background-color: #0028ca;
-    color:rgb(233, 245, 255);
+    background-color: #03186c;
+    color:rgb(224, 241, 255);
+    font-size:0;
+}
+
+a{
+  text-decoration: none !important;
 }
 
 
@@ -32,7 +42,7 @@ body {
     width: 50%;
     height:100%;
     font-family: "Raleway", sans-serif;
-    font-size: medium;
+    font-size: 3rem;
     padding-left: 5%;
 }
 
@@ -43,7 +53,7 @@ body {
     width: 25%;
     height:100%;
     font-family: "Raleway", sans-serif;
-    font-size: medium;
+    font-size: 3rem;
 }
 
 .synopsis{
@@ -54,7 +64,7 @@ body {
     height:100%;
     text-wrap: auto;
     font-family: "Raleway", sans-serif;
-    font-size: medium;
+    font-size: 3rem;
     padding-right: 5%;
 }
 
@@ -69,6 +79,44 @@ body {
     padding-left: 5%;
     padding-top: 15%;    
 }
+
+#text{
+  display: block;
+  cursor: pointer;
+}
+
+/* .text-show{
+  background-color: black;
+} */
+
+#text2{
+  display: block;
+  cursor: pointer;
+}
+
+.text-show2{
+  transform: skew(25turn, -15deg);
+  opacity: 25%;
+  font-size: 24rem;
+}
+
+#text3{
+  display:block;
+  cursor: pointer;
+}
+
+#text4{
+  display:block;
+  cursor: pointer;
+}
+
+.text-show4{
+  font-size: 24rem;
+  text-shadow: 0 0 10px #fff4c7,
+               0 0 20px #f7fffd,
+               0 0 30px #fff4c7;
+}
+
 
 @media screen and (max-width:960px) and (min-width:720px){
   .header{
