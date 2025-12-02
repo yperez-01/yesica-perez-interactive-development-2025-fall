@@ -19,6 +19,14 @@ $("#text4").on("mouseenter", function(){
     }
 })
 
+$("#text3").on("click", function(){
+    if($("#text3").hasClass("text-show3")){
+        $("#text3").removeClass("text-show3");}else{
+            $("#text3").addClass("text-show3");
+    }
+})
+
+
 
 document.getElementById('text').addEventListener('click', function() {
     const body = document.body;

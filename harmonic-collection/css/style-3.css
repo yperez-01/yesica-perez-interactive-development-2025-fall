@@ -22,6 +22,7 @@ body {
 
 a{
   text-decoration: none !important;
+  color:#f7fffd;
 }
 
 
@@ -70,14 +71,16 @@ a{
 
 .content{
     font-family: "DM Serif" , serif;
-    font-size: 100px;
+    font-size: 12rem;
     vertical-align: bottom;
     width: 75%;
     height:100%;
     text-align: left;
     text-wrap: auto;
     padding-left: 5%;
-    padding-top: 15%;    
+    padding-top: 15%;
+    display: inline-block;
+    animation: slide-up 5s forwards;    
 }
 
 #text{
@@ -105,6 +108,13 @@ a{
   cursor: pointer;
 }
 
+.text-show3{
+  color:blanchedalmond;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40rem;
+  transform: skew(15turn, 15deg);
+}
+
 #text4{
   display:block;
   cursor: pointer;
@@ -115,6 +125,38 @@ a{
   text-shadow: 0 0 10px #fff4c7,
                0 0 20px #f7fffd,
                0 0 30px #fff4c7;
+  animation: float 3s infinite;
+}
+
+
+@keyframes float{
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(200%);
+    opacity: 100%;
+  }
+  25%{
+    opacity:0%
+  }
+  50%{
+    opacity:75%
+  }
+  75%{
+    opacity:15%
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
 }
 
 

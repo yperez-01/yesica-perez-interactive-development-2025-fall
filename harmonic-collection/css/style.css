@@ -27,6 +27,7 @@ body {
 
 a{
   text-decoration: none !important;
+  color:#1c0034;
 }
 
 .header{
@@ -91,7 +92,7 @@ a{
 }
 
 .filler{
-    font-size:100px;
+    font-size:12rem;
     color:#1e4001;
     font-family: "DM Serif", serif;
     display:block;
