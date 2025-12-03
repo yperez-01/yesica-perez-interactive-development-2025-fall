@@ -1,12 +1,6 @@
 @charset "utf-8";
-
 @font-face {
-  font-family: "edosz", sans-serif;
-  src: url(../assets/edosz.ttf);
-}
-
-@font-face {
-    font-family: "DM Serif" , serif;
+    font-family: "DM Serif", serif;
     src: url(../assets/DMSerifText-Regular.ttf);
 }
 
@@ -101,25 +95,36 @@ a{
 
 .text{
     display: block;
-    opacity: 0%;
+    opacity: 100%;
     cursor:pointer;
-    font-family: "edosz", sans-serif;
+    border-style: solid;
+    color:#1e4001;
+    position: relative;
+    z-index: -1;
+    font-family: "DM Serif" , sans-serif;
 }
 
 
 .text2{
     display: block;
-    opacity: 0%;
+    opacity: 100%;
     cursor:pointer;
-    font-family: "edosz", sans-serif;
+    border-style: solid;
+    color:#1e4001;
+    position: relative;
+    z-index: -1;
+    font-family: "DM Serif" , sans-serif;
 }
 
 .text-show{
-    font-size:55rem;
-    color:#f00000;
-    font-family: "edosz", sans-serif;
+    font-size:40rem;
+    color:#e02d00;
+    font-family: "DM Serif", sans-serif;
     display: block;
     opacity: 100%;
+    position: relative;
+    z-index: -1;
+
 }
 
 @keyframes fade {
@@ -145,7 +150,6 @@ a{
 
   100% {
     opacity: 100%;
-    /* transform: rotate(-40deg); */
     line-height: 125%;
   }
 }
@@ -180,6 +184,42 @@ a{
 
 @media screen and (max-width:960px) and (min-width:720px){
   .content{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  .text{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  .text2{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  .text-show{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  .filler{
     background-color:rgba(255, 0, 0, 0);
     width:calc(50% - 2.6rem);
     background-color:rgba(0, 0, 0, 0);

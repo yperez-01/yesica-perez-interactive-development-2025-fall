@@ -10,11 +10,6 @@
 }
 
 @font-face {
-    font-family: "ralewaythinitalic", sans-serif;
-    src: url(../assets/Raleway-ThinItalic.ttf);
-}
-
-@font-face {
     font-family: "ralewaybolditalic", sans-serif;
     src: url(../assets/Raleway-BoldItalic.ttf);
 }
