@@ -26,7 +26,7 @@ $("#text4").on("click", function(){
     }
 })
 
-$("#text5").on("mouseenter", function(){
+$("#text5").on("mousemove", function(){
     if($("#text5").hasClass("text-show5")){
         $("#text5").removeClass("text-show5");}else{
             $("#text5").addClass("text-show5");
