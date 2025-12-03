@@ -88,19 +88,17 @@ a{
   cursor: pointer;
 }
 
-/* .text-show{
-  background-color: black;
-} */
-
 #text2{
   display: block;
   cursor: pointer;
+  width:fit-content;
 }
 
 .text-show2{
-  transform: skew(25turn, -15deg);
+  /* transform: skew(25turn, -15deg); */
   opacity: 25%;
   font-size: 24rem;
+  transform:scale(0.5);
 }
 
 #text3{
@@ -109,10 +107,12 @@ a{
 }
 
 .text-show3{
-  color:blanchedalmond;
+  color:rgb(253, 242, 226);
   font-family:'Times New Roman', Times, serif;
   font-size: 40rem;
-  transform: skew(15turn, 15deg);
+  transform: skew(3.08turn, -1deg);
+  position: relative;
+  z-index: -1;
 }
 
 #text4{

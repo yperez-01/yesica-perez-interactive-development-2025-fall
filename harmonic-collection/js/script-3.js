@@ -20,9 +20,6 @@ $("#text3").on("click", function(){
     }
 })
 
-
-
-// document.getElementById('text').addEventListener('click', function() {
-//     const body = document.body;
-//     body.style.backgroundColor = '#000000';
-// });
+$("#text").on("click", function(){
+   $("body").css('background-color', '#000000');
+    })
