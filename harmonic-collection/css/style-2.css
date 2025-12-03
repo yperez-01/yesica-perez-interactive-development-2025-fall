@@ -19,12 +19,19 @@
     src: url(../assets/Raleway-BoldItalic.ttf);
 }
 
+html{
+  font-size: 7px;
+  line-height: 1.3;
+}
+
 body {
     background-color: #cb8efd;
+    font-size:0;
 }
 
 a{
   text-decoration:none !important;
+  color:#1c0034;
 }
 
 #header{
@@ -87,17 +94,73 @@ a{
     animation: slide-in 4s forwards;
 }
 
-.effect{
+#text{
   color:#1c0034;
+  display:block;
+  cursor: pointer;
 }
 
-.effect-show{
+.text-show{
   color:#f3c300;
   cursor: pointer;
   text-shadow: 0 0 10px #fff4c7,
                0 0 20px #fac907,
                0 0 30px #fff4c7;
+  animation: float 3s infinite;
+  display:block;
 }
+
+#text2{
+  color:#1c0034;
+  cursor: pointer;
+}
+
+.text-show2{
+  color:#1c0034;
+  text-shadow: 0 0 50px #fff4c7,
+               0 0 40px #edffbd,
+               0 0 80px #fff4c7;
+  cursor: pointer;
+}
+
+#text3{
+  color:#1c0034;
+  cursor: pointer;
+}
+
+.text-show3{
+  color:#1c0034;
+  text-shadow: 0 0 20px #ffffff,
+               0 0 20px #f8ffd3,
+               0 0 20px #ffffff;
+               cursor: pointer;
+}
+
+#text4{
+  color:#1c0034;
+  cursor: pointer;
+  display:block;
+}
+
+.text-show4{
+  color:#1c0034;
+  cursor: pointer;
+  /* display:block; */
+  transform: scale(0.25);
+  text-shadow: 0 0 20px #494949,
+               0 0 100px #f8ffd3,
+               0 0 20px #494949;
+}
+
+/* #text5{
+  color:#1c0034;
+  cursor: pointer;
+}
+
+.text-show5{
+  color:#cb8efd;
+  cursor: pointer;
+} */
 
 .reverse{
   color:#1c0034;
@@ -126,6 +189,16 @@ a{
 .mine:hover:before{
   content: "mine, mine, mine, mine, mine, mine, mine, mine, mine......";
   font-family: "ralewaythinitalic" , sans-serif;
+}
+
+
+@keyframes float{
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes slide-in {

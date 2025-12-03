@@ -1,9 +1,3 @@
-// $("#text").on("click", function(){
-//     if($("#text").hasClass("text-show")){
-//         $("#text").removeClass("text-show");}else{
-//             $("#text").addClass("text-show");
-//     }
-// })
 
 $("#text2").on("mousemove", function(){
     if($("#text2").hasClass("text-show2")){
@@ -28,7 +22,7 @@ $("#text3").on("click", function(){
 
 
 
-document.getElementById('text').addEventListener('click', function() {
-    const body = document.body;
-    body.style.backgroundColor = '#000000';
-});
+// document.getElementById('text').addEventListener('click', function() {
+//     const body = document.body;
+//     body.style.backgroundColor = '#000000';
+// });
