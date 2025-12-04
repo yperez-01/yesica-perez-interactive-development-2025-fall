@@ -86,12 +86,12 @@ a{
 #text{
   display: inline-block;
   cursor: pointer;
+  border: solid white;
 }
 
 #text2{
   display: inline-block;
   cursor: pointer;
-  width:fit-content;
 }
 
 .text-show2{
@@ -111,8 +111,8 @@ a{
   font-family:'Times New Roman', Times, serif;
   font-size: 40rem;
   transform: skew(3.08turn, -1deg);
-  position: relative;
-  z-index: -1;
+  /* position: relative;
+  z-index: -1; */
 }
 
 #text4{

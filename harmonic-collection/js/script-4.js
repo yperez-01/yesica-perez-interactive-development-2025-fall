@@ -32,3 +32,10 @@ $("#text5").on("mouseover", function(){
             $("#text5").addClass("text-show5");
     }
 })
+
+$("#text3").on("mouseover", function(){
+    if($("#text3").hasClass("text-show3")){
+        $("#text3").removeClass("text-show3");}else{
+            $("#text3").addClass("text-show3");
+    }
+})

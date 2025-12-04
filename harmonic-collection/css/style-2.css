@@ -86,7 +86,7 @@ a{
 
 #text{
   color:#1c0034;
-  display:block;
+  display:inline-block;
   cursor: pointer;
 }
 
@@ -97,12 +97,12 @@ a{
                0 0 20px #fac907,
                0 0 30px #fff4c7;
   animation: float 3s infinite;
-  display:block;
 }
 
 #text2{
   color:#1c0034;
   cursor: pointer;
+  display: inline-block;
 }
 
 .text-show2{
@@ -116,6 +116,7 @@ a{
 #text3{
   color:#1c0034;
   cursor: pointer;
+  display: inline-block;
 }
 
 .text-show3{
@@ -129,13 +130,12 @@ a{
 #text4{
   color:#1c0034;
   cursor: pointer;
-  /* display:block; */
+  display:inline-block;
 }
 
 .text-show4{
   color:#1c0034;
   cursor: pointer;
-  display:block;
   transform: scale(0.25);
   text-shadow: 0 0 20px #494949,
                0 0 100px #f8ffd3,
@@ -145,6 +145,7 @@ a{
 #text5{
   color:#1c0034;
   cursor: pointer;
+  display: inline-block;
 }
 
 .text-show5{

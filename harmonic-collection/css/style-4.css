@@ -132,7 +132,10 @@ border: solid;
 }
 
 .text-show3{
-  opacity: 0;
+  text-shadow: 0 0 10px #fff6fa,
+               0 0 30px #f7f7f7,
+               0 0 80px #f51e78;
+  transform:scale(2);
 }
 
 #text4{
