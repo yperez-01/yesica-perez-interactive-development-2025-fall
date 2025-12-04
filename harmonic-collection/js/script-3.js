@@ -1,5 +1,5 @@
 
-$("#text2").on("mousemove", function(){
+$("#text2").on("mouseenter", function(){
     if($("#text2").hasClass("text-show2")){
         $("#text2").removeClass("text-show2");}else{
             $("#text2").addClass("text-show2");

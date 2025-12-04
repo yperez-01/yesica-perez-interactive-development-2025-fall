@@ -84,12 +84,12 @@ a{
 }
 
 #text{
-  display: block;
+  display: inline-block;
   cursor: pointer;
 }
 
 #text2{
-  display: block;
+  display: inline-block;
   cursor: pointer;
   width:fit-content;
 }
@@ -102,7 +102,7 @@ a{
 }
 
 #text3{
-  display:block;
+  display:inline-block;
   cursor: pointer;
 }
 
@@ -116,7 +116,7 @@ a{
 }
 
 #text4{
-  display:block;
+  display:inline-block;
   cursor: pointer;
 }
 
