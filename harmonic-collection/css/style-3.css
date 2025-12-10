@@ -161,7 +161,7 @@ a{
 
 
 @media screen and (max-width:960px) and (min-width:720px){
-  .header{
+  #header{
     background-color:rgba(255, 0, 0, 0);
     width:calc(50% - 2.6rem);
     background-color:rgba(0, 0, 0, 0);
@@ -189,6 +189,60 @@ a{
 
 @media screen and (max-width:960px) and (min-width:720px){
   .content{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  html{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  body{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #text{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #text2{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #text3{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #text4{
     background-color:rgba(255, 0, 0, 0);
     width:calc(50% - 2.6rem);
     background-color:rgba(0, 0, 0, 0);

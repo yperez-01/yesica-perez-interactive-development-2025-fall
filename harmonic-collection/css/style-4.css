@@ -14,8 +14,6 @@ html{
     line-height: 1.3;
 }
 
-
-
 body {
     background-color: #fe80d2;
     font-size: 0;
@@ -260,6 +258,24 @@ border: solid;
 
 @media screen and (max-width:960px) and (min-width:720px){
   #text5{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  html{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  body{
     background-color:rgba(255, 0, 0, 0);
     width:calc(50% - 2.6rem);
     background-color:rgba(0, 0, 0, 0);
