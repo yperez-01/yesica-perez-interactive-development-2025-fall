@@ -159,12 +159,110 @@ border: solid;
                0 0 30px #b2b2b2;
 }
 
+@media screen and (max-width:960px) and (min-width:720px){
+  body{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
 
-/* @media screen and (max-width:960px) and (min-width:720px){
+@media screen and (max-width:960px) and (min-width:720px){
   .header{
     background-color:rgba(255, 0, 0, 0);
     width:calc(50% - 2.6rem);
     background-color:rgba(0, 0, 0, 0);
     height:26rem;
   }
-} */
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  .movie{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  .studio{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  .synopsis{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  .content{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #button{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #text{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #text2{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #text3{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #text4{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
+
+@media screen and (max-width:960px) and (min-width:720px){
+  #text5{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:rgba(0, 0, 0, 0);
+    height:26rem;
+  }
+}
